@@ -14,13 +14,14 @@
 
 }
 #content1, #content2, #content3{font-size: x-small;}
-.row-1{display: grid; justify-content: center; grid-template-columns: repeat(3,135px) ; }
-.row-1>div>img{height: 150px; width: 100px;}
+.row-1{display: grid; grid-template-columns: repeat(3,135px); justify-content: center; margin-left: 25px;}
 #qq{margin-top: 40px;}
+.row-1>div>img{height: 150px; width: 100px;}
 
 
 
-.row-2{display: grid; justify-content: center; grid-template-columns: repeat(3,135px) ;}
+
+.row-2{display: grid; justify-content: center; grid-template-columns: repeat(3,135px) ; margin-top: 20px;}
 .row-2>div>img{height: 150px; width: 100px; margin: 15px;}
 #ww{margin-top: 40px;}
 #mm,#pp{text-align: left; margin-top: -20px;font-size: x-small; padding-left: 15px; }
@@ -34,13 +35,21 @@
     #the{font-size: x-large}
 
 
- .row-1{display: grid; grid-template-columns: repeat(1,1fr);}
+ .row-1{display: grid; grid-template-columns: auto; justify-content: left; }
+
     
+.row-2{display: grid; grid-template-columns: auto; justify-content:right; margin-top: -550px;}
+
+#qq{margin-top: 30px;}
+#mon{margin-top: 30px;}
 
 
 
+#ww{margin-top: 4px;}
+#bb{margin-top: 40px;}
+#cc{padding-top: 8px;}
 
-
+#mm{padding-top: 15px;}
     }
 
 
